@@ -4,13 +4,13 @@ version = "0.1.0"
 description = "A minimal library to work with versioned events using PyMongo drivers for atomic database transactions."
 authors = ["Taj <tjgurwara99@gmail.com>"]
 license = "Apache-2.0"
-packages = [ { include = "example" }, { include = "event_history" } ]
+packages = [ { include = "event_history" } ]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-pymongo = "^4.0.1"
 
 [tool.poetry.dev-dependencies]
+pymongo = "^4.0.1"
 black = "^22.1.0"
 flake8 = "^4.0.1"
 mypy = "^0.931"
