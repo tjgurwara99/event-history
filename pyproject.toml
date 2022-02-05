@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "event-history"
 version = "0.1.0"
-description = "A minimal library to work with versioned events using PyMongo drivers for atomic database transactions."
+description = "A minimal library to work with versioned events in atomic database transactions."
 authors = ["Taj <tjgurwara99@gmail.com>"]
 license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/tjgurwara99/event-history"
 packages = [ { include = "event_history" } ]
 
 [tool.poetry.dependencies]
