@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "event-history"
+version = "0.1.0"
+description = "A minimal library to work with versioned events using PyMongo drivers for atomic database transactions."
+authors = ["Taj <tjgurwara99@gmail.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+mypy = "^0.931"
+typed-ast = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
