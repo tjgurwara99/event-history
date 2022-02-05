@@ -7,8 +7,6 @@ it would be good to show it off so that maybe it can help someone else.
 
 ## Usecases
 
-See `example` direction` for better understanding of why this library is a bit useful.
-
 The library is quite simple, you only have to have two classes that satisfy
 the `IEventHistoryService` and `IEventService` protocols.
 
@@ -104,3 +102,7 @@ actual library since all its doing is abstracting away some of the burden of wri
 further abstractions on top of your service layers. So, if you can just look at
 the pattern and come up with your own simple abstraction, that would be better than
 adding a dependency (this sideproject) in your projects.
+
+For a fully fledged example, take a look at the `example` directory and the code inside.
+It shows how it can be used with `pymongo` library and how it can work very nicely
+with it.
