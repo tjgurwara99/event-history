@@ -15,13 +15,15 @@
 
 """
 
-import subprocess
 import dataclasses
+import subprocess
+import time
 from datetime import datetime
+
 import pymongo
 from bson import ObjectId
+
 from event_history import TransactionService
-import time
 
 
 @dataclasses.dataclass

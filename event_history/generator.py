@@ -17,10 +17,7 @@
 """
 from datetime import datetime
 
-from event_history.interfaces import (
-    IEventHistoryService,
-    IEventService,
-)
+from event_history.interfaces import IEventHistoryService, IEventService
 
 
 class TransactionService:

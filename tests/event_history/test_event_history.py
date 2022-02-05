@@ -16,12 +16,13 @@
 
 """
 import dataclasses
-from datetime import datetime
 import typing
+from datetime import datetime
+
+import pytest
 from bson import ObjectId
 
 from event_history import TransactionService
-import pytest
 
 
 @dataclasses.dataclass

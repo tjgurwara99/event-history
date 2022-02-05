@@ -16,8 +16,6 @@
 
 """
 
-from event_history.interfaces import (  # noqa: F401
-    IEventHistoryService,
-    IEventService,
-)
 from event_history.generator import TransactionService  # noqa F401
+from event_history.interfaces import (IEventHistoryService,  # noqa: F401
+                                      IEventService)
