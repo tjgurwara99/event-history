@@ -6,7 +6,7 @@ authors = ["Taj <tjgurwara99@gmail.com>"]
 license = "Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/tjgurwara99/event-history"
-packages = [ { include = "event_history" } ]
+packages = [ { include = "event_history" }, { include = "LICENSE" } ]
 
 [tool.poetry.dependencies]
 python = "^3.9"
