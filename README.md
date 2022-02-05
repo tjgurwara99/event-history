@@ -7,4 +7,4 @@ it would be good to show it off so that maybe it can help someone else.
 
 ## Usecases
 
-See `example` direction` for better understanding of why this library is a bit useful.
+See `example` directory to see why this is a useful pattern specially when it comes to database operations.
